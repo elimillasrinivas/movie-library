@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,500&family=Poppins:wght@100;200;300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">
+            Movie Library
+        </h1>
+    <div class="container">
+        <div class="searchbox">
+            <input type="text" placeholder="search by title..." id="title" required>
+            <input type="text" id="genre" placeholder="search by genre..." required>
+            <button id="search"  ><img src="assets/search.png" alt="searchicon"></button>
+            <div class="selections">
+                <button id="sortTitle" class="sort-btn">Sort by Title</button>
+                <button id="sortGenre" class="sort-btn">Sort by Genre</button>
+                <button id="count" class="sort-btn">CountGenre</button>
+                <select name="dropdown" id="dropDown" class="dropDownMenu">
+                <option id="title-option">Title</option>
+                <option id="genre-option">Genre</option>
+                <option id="both">Both</option>
+                </select>
+            </div>
+        </div>
+        <ul id="results"></ul>
+    </div>
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>

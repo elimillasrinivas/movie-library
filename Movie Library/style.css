@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+:root{
+    --bg-color:rgb(246, 118, 6)
+}
+
+.container{
+    border: 1px solid lightgray;
+    width: 70%;
+    margin-top: 2rem;
+    margin-left: 13rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--bg-color);
+    border-radius: 10px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+.searchbox{
+    margin-left: 2rem;
+    display: flex;
+}
+button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin-left: 1rem;
+}
+button img{
+    width: 35px;
+    height: 35px;
+    margin-top: 3rem;
+    background-color: var(--bg-color) ;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+button img:hover{
+    background-color: wheat;
+}
+input{
+    width: 150px;
+    height: 30px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--bg-color);
+    font-family: 'Lora', serif;
+    user-select: none;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+}
+ul{
+    margin-top: 2rem;
+}
+ul li{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+.dropDownMenu{
+    width: 100px;
+    height: 20px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+.dropDownMenu:hover{
+    background-color: wheat;
+}
+.dropDownMenu option{
+    font-size: 16px;
+    font-family: 'Lora', serif;
+}
+.dropDownMenu:focus{
+    outline: none;
+}
+.sort-btn{
+    width: 100px;
+    margin-top: 3rem;
+    font-family: 'Lora', serif;
+    align-items: center;
+    background-color: var(--bg-color);
+    font-size: 15px;
+    font-family: 'Lora', serif;
+    border: 1px solid gray;
+}
+.sort-btn:hover{
+     background-color: wheat;
+}
+.selections{
+    display: flex;
+}
